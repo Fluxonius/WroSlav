@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WroSlav</string>
+    <string name="content_upcoming">Nadchodzące</string>
+    <string name="content_popular">Popularne</string>
+    <string name="content_nearest">Nijbizsze</string>
+    <string name="content_news">Wiadomości</string>
+    <string name="content_save">Zapisz</string>
+    <string name="content_profil_saved">Zapisane</string>
+    <string name="content_profil_settings">Ustawienia</string>
+    <string name="content_profil_Account">Profil</string>
+    <string name="content_profil_LogOut">Wyloguj się</string>
+    <string name="content_profil_saved_descr">Wydarzenia, wiadomosci</string>
+    <string name="content_profil_settings_desc">Język</string>
+    <string name="content_profil_account_desc">Hasło, dane personalne</string>
+    <string name="content_profil_logOut_desc">Wyjdz z aplikacji</string>
+    <string name="content_description">Opis</string>
+    <string name="content_galery">Galeria</string>
+    <string name="content_maps">Mapa</string>
+    <string name="bottom_nav_news_title">Wiadomości</string>
+    <string name="bottom_nav_places_title">Miejsca</string>
+    <string name="bottom_nav_events_title">Wydarzenia</string>
+    <string name="bottom_nav_profile">Profil</string>
+    <string name="email_hint">Wprowadź swój email</string>
+    <string name="password_hint">Wprowadź swoje hasło</string>
+    <string name="signup_btn">Zarejestruj się</string>
+    <string name="login_btn">Zaloguj sie</string>
+    <string name="back">Powrót</string>
+    <string name="new_password">Zapisz nowe hasło</string>
+    <string name="get_password_link">Wyślij link na e-mail</string>
+    <string name="content_profil_LogIn">Zaloguj się / Zarejestruj się</string>
+    <string name="content_profil_logIn_desc">Zaloguj się lub zarejestruj się w aplikacji</string>
+    <string name="account_or">Lub</string>
+    <string name="forgot_password">Zapomniałeś hasło?</string>
+    <string name="enter_you_nickname">Wpisz swój pseudonim</string>
+</resources>

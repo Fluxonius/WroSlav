@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/fragmentEvents">
+
+    <fragment
+        android:id="@+id/fragmentEvents"
+        android:name="com.example.wroslav.Fragments.FragmentEvents"
+        android:label="FragmentEvents" >
+<!--        <argument-->
+<!--            android:name="events"-->
+<!--            app:argType="com.example.wroslav.dataClasses.Events[]" />-->
+        <action
+            android:id="@+id/action_fragmentEvents_to_eventExtendedFragment"
+            app:destination="@id/eventExtendedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPlaces"
+        android:name="com.example.wroslav.Fragments.FragmentPlaces"
+        android:label="FragmentPlaces" >
+        <action
+            android:id="@+id/action_fragmentPlaces_to_fragmentPlaceExtended"
+            app:destination="@id/fragmentPlaceExtended" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentProfile"
+        android:name="com.example.wroslav.Fragments.FragmentProfile"
+        android:label="FragmentProfile" />
+    <fragment
+        android:id="@+id/fragmentNews"
+        android:name="com.example.wroslav.Fragments.FragmentNews"
+        android:label="FragmentNews" >
+<!--        <argument-->
+<!--            android:name="news"-->
+<!--            app:argType="com.example.wroslav.dataClasses.News[]" />-->
+        <action
+            android:id="@+id/action_fragmentNews_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventExtendedFragment"
+        android:name="com.example.wroslav.Fragments.EventExtendedFragment"
+        android:label="EventExtendedFragment" >
+
+        <argument
+            android:name="event"
+            app:argType="com.example.wroslav.dataClasses.Events" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.example.wroslav.Fragments.ArticleFragment"
+        android:label="fragment_article"
+        tools:layout="@layout/fragment_article" >
+        <argument
+            android:name="article"
+            app:argType="com.example.wroslav.dataClasses.News" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentPlaceExtended"
+        android:name="com.example.wroslav.Fragments.FragmentPlaceExtended"
+        android:label="FragmentPlaceExtended" >
+        <argument
+            android:name="place"
+            app:argType="com.example.wroslav.dataClasses.MyPlace" />
+    </fragment>
+</navigation>

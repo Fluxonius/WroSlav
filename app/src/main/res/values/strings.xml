@@ -1,0 +1,51 @@
+<!--
+~ Copyright (C) 2019 The Android Open Source Project
+~
+~ Licensed under the Apache License, Version 2.0 (the "License");
+~ you may not use this file except in compliance with the License.
+~ You may obtain a copy of the License at
+~
+~      http://www.apache.org/licenses/LICENSE-2.0
+~
+~ Unless required by applicable law or agreed to in writing, software
+~ distributed under the License is distributed on an "AS IS" BASIS,
+~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~ See the License for the specific language governing permissions and
+~ limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">WroSlav</string>
+    <string name="content_upcoming">Upcoming</string>
+    <string name="content_popular">Popular</string>
+    <string name="content_nearest">Nearest</string>
+    <string name="content_news">Latest News</string>
+    <string name="content_save">Save</string>
+    <string name="content_profil_saved">Saved</string>
+    <string name="content_profil_settings">Settings</string>
+    <string name="content_profil_Account">Account</string>
+    <string name="content_profil_LogOut">Log out</string>
+    <string name="content_profil_saved_descr">Events, news</string>
+    <string name="content_profil_settings_desc">Language</string>
+    <string name="content_profil_account_desc">Password, personal info</string>
+    <string name="content_profil_logOut_desc">Exit the app</string>
+    <string name="content_description">Description</string>
+    <string name="content_galery">Gallery</string>
+    <string name="content_maps">Maps</string>
+    <string name="bottom_nav_news_title">News</string>
+    <string name="bottom_nav_places_title">Places</string>
+    <string name="bottom_nav_events_title">Events</string>
+    <string name="bottom_nav_profile">Profile</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="signup_btn">Sign Up</string>
+    <string name="login_btn">"Log In "</string>
+    <string name="back">Back</string>
+    <string name="new_password">Save new password</string>
+    <string name="get_password_link">Send link to email</string>
+    <string name="content_profil_LogIn">Log In / Sign Up</string>
+    <string name="content_profil_logIn_desc">Log In or Sign Up in app</string>
+    <string name="account_or">OR</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="enter_you_nickname">Enter you nickname</string>
+</resources>

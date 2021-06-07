@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WroSlav</string>
+    <string name="content_upcoming">Будучыя</string>
+    <string name="content_nearest">Бліжэйшые</string>
+    <string name="content_news">Навіны</string>
+    <string name="content_popular">Папулярныя</string>
+    <string name="content_save">Захаваць</string>
+    <string name="content_profil_saved">Захаваныя</string>
+    <string name="content_profil_settings">Настройкі</string>
+    <string name="content_profil_Account">Акаўнт</string>
+    <string name="content_profil_LogOut">Выйсці з акаўнту</string>
+    <string name="content_profil_logOut_desc">Выйсці з аплікацыі</string>
+    <string name="content_profil_account_desc">Пароль, асабістыя даныя</string>
+    <string name="content_profil_settings_desc">Мова</string>
+    <string name="content_profil_saved_descr">Мерапрыемствы, навіны</string>
+    <string name="content_maps">Мапа</string>
+    <string name="content_galery">Галерэя</string>
+    <string name="content_description">Апісанне</string>
+    <string name="bottom_nav_news_title">Навіны</string>
+    <string name="bottom_nav_events_title">Мерапрыемствы</string>
+    <string name="bottom_nav_places_title">Месца</string>
+    <string name="bottom_nav_profile">Акаўнт</string>
+    <string name="email_hint">Увядзіце адрас email</string>
+    <string name="password_hint">pass</string>
+    <string name="signup_btn">Увядзіце пароль</string>
+    <string name="login_btn">Увайсці</string>
+    <string name="back">Вярнуцца</string>
+    <string name="new_password">Захавайце новы пароль</string>
+    <string name="get_password_link">Адправіць сылку на email</string>
+    <string name="content_profil_LogIn">Уваход / Рэгістрацыя</string>
+    <string name="content_profil_logIn_desc">Увайдзіце або зарэгіструйцеся</string>
+    <string name="account_or">альбо</string>
+    <string name="forgot_password">Забылі свой пароль?</string>
+    <string name="enter_you_nickname">Увядзіце вам мянушку</string>
+</resources>

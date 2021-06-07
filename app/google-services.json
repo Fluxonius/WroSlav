@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "878463668780",
+    "firebase_url": "https://wroslav-6b991.firebaseio.com",
+    "project_id": "wroslav-6b991",
+    "storage_bucket": "wroslav-6b991.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878463668780:android:6f7f7eeb2429407cf53789",
+        "android_client_info": {
+          "package_name": "com.example.wroslav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878463668780-fq9e89rj90inf2tku8j225ancj1pmbit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wroslav",
+            "certificate_hash": "9cbcc94026a703145242e1ceae7cb0af98be66f3"
+          }
+        },
+        {
+          "client_id": "878463668780-9da9p1eop2n1keikp8prjqbo0s767epm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wroslav",
+            "certificate_hash": "673907825f4388623a23caab4e4fb737b9d5e9bd"
+          }
+        },
+        {
+          "client_id": "878463668780-ve2rqb8fc7mc7ccdcca2i0saurbv4vec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjooT4mxuuvRrNh5-hogowbnxpWSAapmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878463668780-ve2rqb8fc7mc7ccdcca2i0saurbv4vec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

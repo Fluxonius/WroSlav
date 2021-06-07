@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            style="@style/Widget.MyTheme.Toolbar.PrimarySurface"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?android:attr/colorBackground"
+            app:expandedTitleGravity="top"
+            app:layout_scrollFlags="scroll|enterAlways|snap">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/peBack_btn"
+
+                android:layout_margin="16dp"
+
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/ic_back"/>
+
+            <ImageView
+                android:id="@+id/peImageView"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_image"
+
+
+                />
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+
+                android:fitsSystemWindows="true"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:id="@+id/peCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Category"
+                    android:textAppearance="?attr/textAppearanceOverline"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/peTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Title"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/peCategory" />
+
+                <TextView
+                    android:id="@+id/peAdress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="16dp"
+                    android:text="Body"
+                    android:textAppearance="?attr/textAppearanceBody2"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/peIconAddress"
+                    app:layout_constraintTop_toTopOf="@+id/peIconAddress" />
+
+                <TextView
+                    android:id="@+id/peTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Source"
+                    android:textAppearance="@style/TextAppearance.MyTheme.Body2"
+
+                    app:layout_constraintStart_toEndOf="@+id/peTimeIcon"
+                    app:layout_constraintTop_toTopOf="@+id/peTimeIcon" />
+
+                <ImageView
+                    android:id="@+id/peIconAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/ic_places_24dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/peTitle" />
+
+
+                <ImageView
+                    android:id="@+id/peTimeIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/ic_time"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/peIconAddress" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            <!--            <com.google.android.material.appbar.MaterialToolbar-->
+            <!--                android:id="@+id/toolbarPlaces"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="?attr/actionBarSize"-->
+            <!--                app:title="vadim">-->
+
+            <!--            </com.google.android.material.appbar.MaterialToolbar>-->
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+            android:fitsSystemWindows="true"
+            app:tabGravity="fill"
+            app:tabMode="fixed" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/peFragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

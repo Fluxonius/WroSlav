@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_app_primary_variant_color">#0F4C81</color>
+    <color name="my_app_secondary_variant_color">#E0F3FB</color>
+    <color name="my_app_surface_color">#FCFEFF</color>
+    <color name="my_app_color_on_primary">#FFFFFF</color>
+    <color name="my_app_color_on_secondary">#0F4C81</color>
+    <color name="my_app_color_on_background">#FCFEFF</color>
+    <color name="my_app_color_on_error">#EB5757</color>
+    <color name="my_app_color_on_surface">#333333</color>
+</resources>

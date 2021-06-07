@@ -1,0 +1,95 @@
+Index: app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/BR.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/BR.java	(date 1590345317406)
++++ app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/BR.java	(date 1590345317406)
+@@ -2,6 +2,4 @@
+ 
+ public class BR {
+   public static final int _all = 0;
+-
+-  public static final int article = 1;
+ }
+Index: app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/databinding/FragmentArticleBindingImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/databinding/FragmentArticleBindingImpl.java	(date 1590345317392)
++++ app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/databinding/FragmentArticleBindingImpl.java	(date 1590345317392)
+@@ -55,7 +55,7 @@
+     @Override
+     public void invalidateAll() {
+         synchronized(this) {
+-                mDirtyFlags = 0x2L;
++                mDirtyFlags = 0x1L;
+         }
+         requestRebind();
+     }
+@@ -73,19 +73,9 @@
+     @Override
+     public boolean setVariable(int variableId, @Nullable Object variable)  {
+         boolean variableSet = true;
+-        if (BR.article == variableId) {
+-            setArticle((com.example.wroslav.dataClasses.News) variable);
+-        }
+-        else {
+-            variableSet = false;
+-        }
+             return variableSet;
+     }
+ 
+-    public void setArticle(@Nullable com.example.wroslav.dataClasses.News Article) {
+-        this.mArticle = Article;
+-    }
+-
+     @Override
+     protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
+         switch (localFieldId) {
+@@ -107,8 +97,7 @@
+     // dirty flag
+     private  long mDirtyFlags = 0xffffffffffffffffL;
+     /* flag mapping
+-        flag 0 (0x1L): article
+-        flag 1 (0x2L): null
++        flag 0 (0x1L): null
+     flag mapping end*/
+     //end
+ }
+\ No newline at end of file
+Index: app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/DataBinderMapperImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/DataBinderMapperImpl.java	(date 1590345317418)
++++ app/build/generated/ap_generated_sources/debug/out/com/example/wroslav/DataBinderMapperImpl.java	(date 1590345317418)
+@@ -86,11 +86,10 @@
+   }
+ 
+   private static class InnerBrLookup {
+-    static final SparseArray<String> sKeys = new SparseArray<String>(2);
++    static final SparseArray<String> sKeys = new SparseArray<String>(1);
+ 
+     static {
+       sKeys.put(0, "_all");
+-      sKeys.put(1, "article");
+     }
+   }
+ 
+Index: app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java	(date 1590345317406)
++++ app/build/generated/ap_generated_sources/debug/out/androidx/databinding/library/baseAdapters/BR.java	(date 1590345317406)
+@@ -2,6 +2,4 @@
+ 
+ public class BR {
+   public static final int _all = 0;
+-
+-  public static final int article = 1;
+ }

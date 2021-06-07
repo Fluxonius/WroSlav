@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "878463668780",
+    "firebase_url": "https://wroslav-6b991.firebaseio.com",
+    "project_id": "wroslav-6b991",
+    "storage_bucket": "wroslav-6b991.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878463668780:android:6f7f7eeb2429407cf53789",
+        "android_client_info": {
+          "package_name": "com.example.wroslav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878463668780-ve2rqb8fc7mc7ccdcca2i0saurbv4vec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjooT4mxuuvRrNh5-hogowbnxpWSAapmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878463668780-ve2rqb8fc7mc7ccdcca2i0saurbv4vec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

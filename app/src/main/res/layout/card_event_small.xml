@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:cardMaxElevation="6dp"
+    app:cardUseCompatPadding="true"
+    app:checkedIconTint="#75239BD8"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/card_eImage"
+            android:layout_width="269dp"
+            android:layout_height="134dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sample_image"
+
+             />
+
+        <TextView
+            android:id="@+id/card_eTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/keyline_4"
+            android:layout_marginBottom="8dp"
+            android:text="text"
+            android:textAppearance="?attr/textAppearanceOverline"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_eCategory" />
+
+        <TextView
+            android:id="@+id/card_eTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:firstBaselineToTopHeight="40dp"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:text="text"
+            android:textAppearance="@style/TextAppearance.MyTheme.Body2"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_eImage" />
+
+        <TextView
+            android:id="@+id/card_eCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:firstBaselineToTopHeight="@dimen/keyline_5"
+            android:text="Category"
+            android:textAppearance="@style/TextAppearance.MyTheme.Caption"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/card_eTitle" />
+
+<!--        <Button-->
+<!--            android:id="@+id/card_eLike"-->
+<!--            style="@style/Widget.MaterialComponents.Button.TextButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:layout_marginBottom="@dimen/keyline_2"-->
+<!--            android:text="@string/content_save"-->
+<!--            app:icon="@drawable/ic_save_empty_24dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent" />-->
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/eDate"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+
+
+            app:cardCornerRadius="8dp"
+            app:cardElevation="3dp"
+
+            app:cardUseCompatPadding="false"
+            app:contentPadding="3dp"
+            app:layout_constraintBottom_toTopOf="@id/card_eTitle"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nrMonth"
+                    style="?attr/textAppearanceSubtitle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="NR"
+
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Month"
+                    style="?attr/textAppearanceOverline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mon"
+                    />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

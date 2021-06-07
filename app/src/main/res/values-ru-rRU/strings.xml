@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WroSlav</string>
+    <string name="content_upcoming">Предстоящие</string>
+    <string name="content_nearest">Ближайшие</string>
+    <string name="content_news">Новости</string>
+    <string name="content_popular">Популярные</string>
+    <string name="content_save">Сохранить</string>
+    <string name="content_profil_saved">Сохраненные</string>
+    <string name="content_profil_settings">Настройки</string>
+    <string name="content_profil_Account">Аккаунт</string>
+    <string name="content_profil_LogOut">Выйти из аккаунт</string>
+    <string name="content_profil_logOut_desc">Выйти из аккаунта</string>
+    <string name="content_profil_account_desc">Пароль, персональные данные</string>
+    <string name="content_profil_settings_desc">Язык</string>
+    <string name="content_profil_saved_descr">Мероприятия, новости</string>
+    <string name="content_maps">Карта</string>
+    <string name="content_galery">Галерея</string>
+    <string name="content_description">Описание</string>
+    <string name="bottom_nav_news_title">Новости</string>
+    <string name="bottom_nav_places_title">Места</string>
+    <string name="bottom_nav_events_title">Мероприятия</string>
+    <string name="bottom_nav_profile">Аккаунт</string>
+    <string name="email_hint">Введите адрес email</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="signup_btn">Зарегистрироваться</string>
+    <string name="login_btn">Авторизоваться</string>
+    <string name="back">Назад</string>
+    <string name="new_password">Сохранить новый пароль</string>
+    <string name="get_password_link">Отправить ссылку на email</string>
+    <string name="content_profil_LogIn">Войти / Зарегистрироваться</string>
+    <string name="content_profil_logIn_desc">Войти или зарегистрироваться в приложении</string>
+    <string name="account_or">Или</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="enter_you_nickname">Введите свой псевдоним</string>
+</resources>
